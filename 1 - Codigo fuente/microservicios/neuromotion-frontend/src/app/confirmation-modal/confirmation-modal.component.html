@@ -1,0 +1,11 @@
+<div class="modal-overlay" *ngIf="showModal">
+  <div class="modal-content">
+    <div class="modal-body">
+      <div class="icon-container checkmark">✓</div>
+      <p class="dynamic-message">{{ message }}</p>
+      <div class="modal-actions">
+        <button class="ok-button" (click)="onClose()">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
